@@ -17,7 +17,7 @@ const { image, summary, url } = basics
     <title>{title}</title>
     <meta name="description" content={summary} />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.png" />
     <link rel="preload" as="image" href={image} />
 
     <meta property="og:url" content={url} />
@@ -43,9 +43,9 @@ const { image, summary, url } = basics
     font-family:
       Menlo,
       Monaco,
-      Lucida Console,
-      "Courier New",
       Courier,
+      "Courier New",
+      Lucida Console,
       monospace;
     background: #fff;
     letter-spacing: -0.025rem;
@@ -93,9 +93,9 @@ const { image, summary, url } = basics
   }
 
   p {
-    color: #666;
-    font-size: 0.9rem;
-    line-height: 1.5;
+    color: rgb(107, 114, 128);
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
     margin: 0;
     text-wrap: pretty;
   }

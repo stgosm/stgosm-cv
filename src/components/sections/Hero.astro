@@ -6,6 +6,7 @@ import Phone from "@/icons/Phone.astro"
 import X from "@/icons/X.astro"
 import LinkedIn from "@/icons/LinkedIn.astro"
 import GitHub from "@/icons/GitHub.astro"
+import HackerRank from "@/icons/HackerRank.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
@@ -16,6 +17,7 @@ const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
   X,
+  HackerRank
 }
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
@@ -41,7 +43,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           email && (
             <a
               href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              title={`Send an email to ${name} at ${email}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +55,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
           phone && (
             <a
               href={`tel:${phone}`}
-              title={`Llamar por teléfono a ${name} al número ${phone}`}
+              title={`Call ${name} by phone at the number ${phone}`}
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -68,7 +70,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
             return (
               <a
                 href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
+                title={`Visit ${name}'s profile at ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -102,21 +104,31 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
   }
 
   h2 {
-    color: #444;
-    font-weight: 500;
-    font-size: 1.1rem;
+    color: rgb(107, 114, 128);
+    font-size: .875rem;
+    line-height: 1.25rem;
     text-wrap: balance;
+    font-family:
+      Menlo,
+      Monaco,
+      Courier,
+      "Courier New",
+      Lucida Console,
+      monospace;
   }
 
   img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    width: 128px;
-    border-radius: 16px;
+    width: 151px;
+    max-width: 151px;
+    border-radius: 50%;
   }
 
   span {

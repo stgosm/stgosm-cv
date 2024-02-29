@@ -1,66 +1,83 @@
 {
   "basics": {
-    "name": "Miguel Ángel Durán",
-    "label": "Full Stack Developer con más de 15 años de experiencia & Creador de Contenido de Programación",
+    "name": "Santiago Serrano Márquez",
+    "label": "Software Engineer con más de 4 años de experiencia, amante de los videojuegos y del café.",
     "image": "/me.webp",
-    "email": "miduga@gmail.com",
-    "phone": "+34 688888888",
-    "url": "https://midu.dev",
-    "summary": "+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Barcelona, España. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.",
+    "email": "santiago.serrano.marquez@hotmail.com",
+    "phone": "+52 56 2134 5565",
+    "url": "https://linkerto.com/stgosm",
+    "summary": "Como Software Engineer con más de 4 años de experiencia, me apasiona descubrir soluciones innovadoras. Actualmente trabajando en Deloitte como Frontend Developer. Mi formación incluye una licenciatura en Ingeniería en Sistemas Computacionales, con especialización en Proyectos Informáticos y Tecnologías Web. Mi enfoque proactivo y creativo me impulsa a superar desafíos y lograr resultados excepcionales en el campo de la programación.",
     "location": {
       "address": "",
-      "postalCode": "08820",
-      "city": "el Prat de Llobregat",
-      "countryCode": "ES",
-      "region": "España"
+      "postalCode": "",
+      "city": "Mexico City",
+      "countryCode": "MX",
+      "region": "Mexico"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
-        "url": "https://linkedin.com/in/midudev"
+        "username": "stgosm",
+        "url": "https://www.linkedin.com/in/santiago-serrano-marquez/"
       },
       {
         "network": "X",
-        "username": "midudev",
-        "url": "https://x.com/midudev"
+        "username": "stgo_sm",
+        "url": "https://twitter.com/stgo_sm"
       },
       {
         "network": "GitHub",
-        "username": "midudev",
-        "url": "https://github.com/midudev"
+        "username": "stgosm",
+        "url": "https://github.com/stgosm"
+      },
+      {
+        "network": "HackerRank",
+        "username": "stgosm",
+        "url": "https://www.hackerrank.com/profile/stgosm"
       }
     ]
   },
   "work": [
     {
-      "name": "midudev",
-      "position": "Divulgador sobre Programación Web",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2021-01-01",
+      "name": "Deloitte",
+      "position": "Frontend Developer Analyst",
+      "url": "https://www2.deloitte.com/mx/es.html",
+      "startDate": "2021-12-19",
       "endDate": null,
-      "summary": "Streamer de programación más visto en Español en Twitch. +1 millón de seguidores entre todas mis redes sociales. Reconocido por Google, Microsoft y GitHub por mi impacto en la comunidad de desarrolladores.",
+      "summary": "Creación de software de alta calidad, utilizando diversas tecnologías de Frontend como React, JS, HTML, CSS, AEM, etc. Capacitandome constantemente para mejorar tanto mis habilidades de comunicación como de desarrollo, asegurando así servicios de consultoría excepcionales y actualizados.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Adevinta",
-      "position": "Lead Frontend Architect",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2016-06-01",
-      "endDate": "2022-09-01",
-      "summary": "Lideré una convergencia técnica entre diferentes productos y migramos una arquitectura monolítica a otra más flexible y optimizada. Fomenté buenas prácticas y mejoras en la cultura de rendimiento, además de la entrega rápida de valor a los usuarios.",
+      "name": "Nuxiba",
+      "position": "Junior Software Development Engineer",
+      "url": "https://nuxiba.com/",
+      "startDate": "2021-03-01",
+      "endDate": "2022-12-01",
+      "summary": "Desarrollo de software utilizando tecnologías de vanguardia como Git para el control de versiones, React para el desarrollo Front-end, RabbitMQ para la gestión de colas de mensajes, junto con C# para el Back-end y SQL para la manipulación eficiente de bases de datos.",
       "highlights": [
         "Started the company"
       ]
     },
     {
-      "name": "Hubii",
-      "position": "Senior FrontEnd Developer",
-      "startDate": "2011-03-01",
-      "endDate": "2016-05-01",
-      "summary": "Desarrollé una plataforma de noticias geolocalizadas y una API para consumir la información. Escalé los servicios para soportar la carga de más de cientos de miles de peticiones al día. Recorté los tiempos de entrega y despliegues a producción a la mitad. Colaboré con Mozilla y Telefónica para desarrollar la primera app para televisores con FirefoxOS.",
+      "name": "Bedu",
+      "position": "Teaching Assistant",
+      "url": "https://bedu.org/",
+      "startDate": "2020-12-01",
+      "endDate": "2022-12-01",
+      "summary": "Tomar los cursos de BEDU/TECH, ofrecer ayuda a los expertos, resolver preguntas sobre el temario y las tecnologías vistas, así como colaborar en la organización de la clase.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Add Web Tech",
+      "position": "Web Developer",
+      "url": "https://add.com.mx/",
+      "startDate": "2019-07-01",
+      "endDate": "2021-02-28",
+      "summary": "Diseño y desarrollo de Landing Pages, creación de E-commerce con CMS, proporcionando soporte web y gestionando de forma básica servidores con cPanel.",
       "highlights": [
         "Started the company"
       ]
@@ -77,17 +94,22 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Universitat Oberta de Catalunya",
-    "url": "https://www.uoc.edu/portal/es/index.html",
-    "area": "Ingeniero de Software",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": "2009-01-01",
-    "score": "4.0",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
+  "education": [
+    {
+      "institution": "Universidad Multicultural Cudec",
+      "area": "Proyectos Informaticos y Tecnologías Web",
+      "studyType": "Especialidad",
+      "startDate": "2019-09-15",
+      "endDate": "2020-09-01",
+      "courses": []
+    },
+    {
+    "institution": "Universidad Multicultural Cudec",
+    "area": "Ingeniería en Sistemas Computacionales",
+    "studyType": "licenciatura",
+    "startDate": "2016-09-01",
+    "endDate": "2019-09-01",
+    "courses": []
   }],
   "awards": [{
     "title": "Award",
@@ -194,7 +216,7 @@
     },
     {
       "language": "English",
-      "fluency": "Advanced"
+      "fluency": "Upper-Intermediate"
     }
   ],
   "interests": [{
@@ -210,66 +232,15 @@
   }],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Linkerto",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Web application to allow users to create a profile page with their social media links, name and short biography.",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Share your links",
+        "Create your account"
       ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://linkerto.com",
+      "github": null
     }
   ]
 }
