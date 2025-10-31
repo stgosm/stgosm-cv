@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Santiago Serrano Márquez",
-    "label": "Software Engineer with over 4 years of experience, passionate about video games and coffee.",
+    "label": "Software Engineer with over 5 years of experience, passionate about video games, coding and coffee.",
     "image": "/me.webp",
     "email": "santiago.serrano.marquez@hotmail.com",
     "phone": "+52 56 2134 5565",
     "url": "https://linkerto.com/stgosm",
-    "summary": "As a Software Engineer with over 4 years of experience, I am passionate about discovering innovative solutions. Currently working at Deloitte as a Frontend Developer. My education includes a degree in Computer Systems Engineering, specializing in Project Management and Web Technologies. My proactive and creative approach drives me to overcome challenges and achieve exceptional results in the field of programming.",
+    "summary": "As a Software Engineer with over 5 years of experience, I am passionate about discovering innovative solutions. Currently working at Deloitte as a Frontend Developer. My education includes a degree in Computer Systems Engineering, specializing in Project Management and Web Technologies. My proactive and creative approach drives me to overcome challenges and achieve exceptional results in the field of programming.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -47,11 +47,23 @@
       "summary": "Creation of high-quality software, using various Frontend technologies such as React, JS, HTML, CSS, AEM, etc. Continuously training to improve my communication and development skills, ensuring exceptional and up-to-date consulting services.",
       "highlights": [
         "Started the company"
+      ],
+      "positions": [
+        {
+          "position":"Consultant, Frontend Developer",
+          "startDate": "June 01, 2025",
+          "endDate": null
+        },
+        {
+          "position":"Analyst, Frontend Developer",
+          "startDate": "December 19, 2022",
+          "endDate": "May 31, 2025"
+        }
       ]
     },
     {
       "name": "Nuxiba",
-      "position": "Junior Software Development Engineer",
+      "position": "Junior, Software Development Engineer",
       "url": "https://nuxiba.com/",
       "startDate": "2021-03-01",
       "endDate": "2022-12-01",
@@ -97,7 +109,7 @@
   "education": [
     {
       "institution": "Universidad Multicultural Cudec",
-      "area": "Project Management and Web Technologies",
+      "area": "Specialization Degree, Informatic Projects and Web Technologies",
       "studyType": "Specialty",
       "startDate": "2019-09-15",
       "endDate": "2020-09-01",
@@ -105,7 +117,7 @@
     },
     {
     "institution": "Universidad Multicultural Cudec",
-    "area": "Computer Systems Engineering",
+    "area": "Bachelor's Degree, Computer Systems Engineering",
     "studyType": "Bachelor's degree",
     "startDate": "2016-09-01",
     "endDate": "2019-09-01",

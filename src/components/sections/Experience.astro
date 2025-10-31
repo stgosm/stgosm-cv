@@ -8,11 +8,12 @@ import { work } from "@cv"
   <ul>
     {
       work.map(
-        ({ name, startDate, endDate, position, summary, highlights, url }) => {
+        ({ name, startDate, endDate, position, summary, highlights, url, positions }) => {
           const startYear = new Date(startDate).getFullYear()
-          const endYear =
-            endDate != null ? new Date(endDate).getFullYear() : "Current"
-          const years = `${startYear} - ${endYear}`
+          const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
+          const endYear = endDate != null ? new Date(endDate).getFullYear() : "Current"
+          const endMonth = endDate != null ? new Date(endDate).toLocaleString('en-US', { month: 'short' }) : null
+          const years = `${startMonth} ${startYear} - ${endDate !== null ? `${endMonth} ` : ''}${endYear}`
 
           return (
             <li>
@@ -24,11 +25,31 @@ import { work } from "@cv"
                         {name}
                       </a>
                     </h3>
-                    <h4>{position}</h4>
                   </div>
-
-                  <time>{years}</time>
                 </header>
+                {
+                  !positions &&
+                  <div class="position">
+                    {!positions && <h4>{position}</h4>}
+                    {!positions && <time>{years}</time>}
+                  </div>
+                }
+                {
+                  positions?.map((pos) => {
+                    const startYearPosition = new Date(pos.startDate).getFullYear()
+                    const startMonthPosition = new Date(pos.startDate).toLocaleString('en-US', { month: 'short' })
+                    const endYearPosition =
+                      pos.endDate != null ? new Date(pos.endDate).getFullYear() : "Current"
+                    const endMonthPosition = pos.endDate != null ? new Date(pos.endDate).toLocaleString('en-US', { month: 'short' }) : null
+                    const yearsPosition = `${startMonthPosition} ${startYearPosition} - ${pos.endDate !== null ? `${endMonthPosition} ` : ''} ${endYearPosition}`
+                    return (
+                      <div class="positions">
+                        <h4>{pos.position}</h4>
+                        <time>{yearsPosition}</time>
+                      </div>
+                    )
+                  })
+                }
 
                 <footer>
                   <p>{summary}</p>
@@ -87,13 +108,32 @@ import { work } from "@cv"
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    /* margin-bottom: 0.375rem; */
+  }
+
+  .positions, .position {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     margin-bottom: 0.375rem;
   }
 
   time {
     color: rgb(107, 114, 128);
     font-size: 0.85rem;
-    min-width: 102px;
+    min-width: max-content;
+    max-width: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0.425rem;
+    margin-left: 1em;
+    text-wrap: nowrap;
+  }
+
+  div.positions + footer {
+    margin-top: 0.625rem;
   }
 
   @media (width <= 700px) {

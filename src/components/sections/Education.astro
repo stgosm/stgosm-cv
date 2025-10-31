@@ -9,9 +9,10 @@ import { education } from "@cv"
     {
       education.map(({ institution, startDate, endDate, area }) => {
         const startYear = new Date(startDate).getFullYear()
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Current"
-        const years = `${startYear} - ${endYear}`
+        const startMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
+        const endYear = endDate != null ? new Date(endDate).getFullYear() : "Current"
+        const endMonth = new Date(startDate).toLocaleString('en-US', { month: 'short' })
+        const years = `${startMonth} ${startYear} - ${endMonth} ${endYear}`
 
         return (
           <li>
@@ -21,7 +22,9 @@ import { education } from "@cv"
                   <h3>{institution}</h3>
                 </div>
 
-                <time>{years}</time>
+                <div class="time-container">
+                  <time>{years}</time>
+                </div>
               </header>
 
               <footer>
@@ -54,10 +57,24 @@ import { education } from "@cv"
     margin-bottom: 4px;
   }
 
+  .time-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
   time {
     color: rgb(107, 114, 128);
     font-size: 0.85rem;
-    min-width: 102px;
+    min-width: max-content;
+    max-width: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0.425rem;
+    margin-left: 1em;
+    text-wrap: nowrap;
   }
 
   @media (width <= 700px) {
